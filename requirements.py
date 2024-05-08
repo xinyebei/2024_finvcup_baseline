@@ -1,0 +1,12 @@
+torch==1.9.0
+torchaudio==0.9.0
+pydub==0.21.0
+numba==0.48.0
+numpy==1.15.4
+pandas==0.23.3
+scipy==1.2.1
+scikit-learn==0.19.1
+tqdm
+SoundFile
+librosa==0.6.2
+pydub==0.21.0
