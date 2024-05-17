@@ -26,7 +26,7 @@ Implementing environment:
 
 ## Dataset
 
-新建./submit目录,请将下载好的数据文件 finvcup9th_1st_ds4.tar.gz 解压到./data目录下，执行
+新建./submit目录,请将下载好的数据文件 finvcup9th_1st_ds5.tar.gz 解压到./data目录下，执行
 ```bash
 python data_prepare.py
 ```

@@ -72,7 +72,7 @@ def main(speech_list, infer, res_path):
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description = "DeepFake audio")
     parser.add_argument('--model_path',      type=str,   default='exps/model/model_0001.model',       help='Model checkpoint path')
-    parser.add_argument('--test_path',      type=str,   default='data/finvcup9th_1st_ds4/finvcup9th_1st_ds4_test_data.csv',       help='Path of test file, strictly same with the original file')
+    parser.add_argument('--test_path',      type=str,   default='data/finvcup9th_1st_ds5/finvcup9th_1st_ds5_test_data.csv',       help='Path of test file, strictly same with the original file')
     parser.add_argument('--save_path', type=str, default='./submit/submit.csv', help='Path of result')
     args = parser.parse_args()
     print('loading model...')

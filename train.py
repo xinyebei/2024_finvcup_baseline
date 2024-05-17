@@ -17,8 +17,8 @@ parser.add_argument('--lr',         type=float, default=0.001,   help='Learning 
 parser.add_argument("--lr_decay",   type=float, default=0.97,    help='Learning rate decay every [test_step] epochs')
 
 ## Training and evaluation path/lists, save path
-parser.add_argument('--train_list', type=str,   default="./data/finvcup9th_1st_ds4/finvcup9th_1st_ds4_train_data.csv",     help='The path of the training list, eg:"/data08/VoxCeleb2/train_list.txt" in my case')
-parser.add_argument('--eval_list',  type=str,   default="./data/finvcup9th_1st_ds4/finvcup9th_1st_ds4_valid_data.csv",              help='The path of the evaluation list, eg:"/data08/VoxCeleb1/veri_test2.txt" in my case')
+parser.add_argument('--train_list', type=str,   default="./data/finvcup9th_1st_ds5/finvcup9th_1st_ds5_train_data.csv",     help='The path of the training list, eg:"/data08/VoxCeleb2/train_list.txt" in my case')
+parser.add_argument('--eval_list',  type=str,   default="./data/finvcup9th_1st_ds5/finvcup9th_1st_ds5_valid_data.csv",              help='The path of the evaluation list, eg:"/data08/VoxCeleb1/veri_test2.txt" in my case')
 parser.add_argument('--save_path',  type=str,   default="./exps",                                     help='Path to save the score.txt and models')
 parser.add_argument('--initial_model',  type=str,   default="",                                          help='Path of the initial_model')
 
